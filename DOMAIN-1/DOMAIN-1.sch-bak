@@ -2428,18 +2428,12 @@ Wire Wire Line
 	10250 9000 9050 9000
 Wire Wire Line
 	11500 9750 11050 9750
-Connection ~ 11500 9400
 Wire Wire Line
 	10700 8400 9050 8400
 Wire Wire Line
 	10700 9400 10700 8400
 Wire Wire Line
 	11500 9400 11050 9400
-Wire Wire Line
-	11500 9150 11500 9400
-Connection ~ 11500 9150
-Wire Wire Line
-	11500 9050 11500 9150
 $Comp
 L power:VCC #PWR0103
 U 1 1 61D18113
@@ -2469,17 +2463,6 @@ Wire Wire Line
 	12350 9150 12350 8650
 Wire Wire Line
 	12100 9150 12350 9150
-$Comp
-L random-keyboard-parts:PRTR5V0U2X U2
-U 1 1 61D145CB
-P 11800 9100
-F 0 "U2" H 11800 9397 60  0000 C CNN
-F 1 "PRTR5V0U2X" H 11800 9291 60  0000 C CNN
-F 2 "random-keyboard-parts:SOT143B" H 11800 9100 60  0001 C CNN
-F 3 "" H 11800 9100 60  0001 C CNN
-	1    11800 9100
-	1    0    0    -1  
-$EndComp
 Text GLabel 13150 8650 2    50   Input ~ 0
 D-
 Wire Wire Line
@@ -2829,17 +2812,6 @@ F 1 "SW_Push" H 1450 7344 50  0000 C CNN
 F 2 "random-keyboard-parts:SKQG-1155865" H 1450 7350 50  0001 C CNN
 F 3 "~" H 1450 7350 50  0001 C CNN
 	1    1450 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L MCU_Microchip_AVR:AT90USB1286-AU U1
-U 1 1 61D51A8D
-P 2850 8850
-F 0 "U1" H 2850 6761 50  0000 C CNN
-F 1 "AT90USB1286-AU" H 2850 6670 50  0000 C CNN
-F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 2850 8850 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 2850 8850 50  0001 C CNN
-	1    2850 8850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3527,10 +3499,10 @@ F 3 "" V 4600 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ws2812b:WS2812B LED3
+L ws2812b:WS2812B LED2
 U 1 1 623D24D5
 P 4650 8200
-F 0 "LED3" H 4650 8687 60  0000 C CNN
+F 0 "LED2" H 4650 8687 60  0000 C CNN
 F 1 "WS2812B" H 4650 8581 60  0000 C CNN
 F 2 "WS2812B:WS2812B" V 4600 8200 60  0001 C CNN
 F 3 "" V 4600 8200 60  0000 C CNN
@@ -3538,10 +3510,10 @@ F 3 "" V 4600 8200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ws2812b:WS2812B LED5
+L ws2812b:WS2812B LED3
 U 1 1 623E82C4
 P 4650 9150
-F 0 "LED5" H 4650 9637 60  0000 C CNN
+F 0 "LED3" H 4650 9637 60  0000 C CNN
 F 1 "WS2812B" H 4650 9531 60  0000 C CNN
 F 2 "WS2812B:WS2812B" V 4600 9150 60  0001 C CNN
 F 3 "" V 4600 9150 60  0000 C CNN
@@ -3549,10 +3521,10 @@ F 3 "" V 4600 9150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ws2812b:WS2812B LED7
+L ws2812b:WS2812B LED4
 U 1 1 623FDDAE
 P 4650 10100
-F 0 "LED7" H 4650 10587 60  0000 C CNN
+F 0 "LED4" H 4650 10587 60  0000 C CNN
 F 1 "WS2812B" H 4650 10481 60  0000 C CNN
 F 2 "WS2812B:WS2812B" V 4600 10100 60  0001 C CNN
 F 3 "" V 4600 10100 60  0000 C CNN
@@ -3560,10 +3532,10 @@ F 3 "" V 4600 10100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ws2812b:WS2812B LED2
+L ws2812b:WS2812B LED5
 U 1 1 624309B6
 P 6300 7300
-F 0 "LED2" H 6300 7787 60  0000 C CNN
+F 0 "LED5" H 6300 7787 60  0000 C CNN
 F 1 "WS2812B" H 6300 7681 60  0000 C CNN
 F 2 "WS2812B:WS2812B" V 6250 7300 60  0001 C CNN
 F 3 "" V 6250 7300 60  0000 C CNN
@@ -3571,10 +3543,10 @@ F 3 "" V 6250 7300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ws2812b:WS2812B LED4
+L ws2812b:WS2812B LED6
 U 1 1 624309BC
 P 6300 8200
-F 0 "LED4" H 6300 8687 60  0000 C CNN
+F 0 "LED6" H 6300 8687 60  0000 C CNN
 F 1 "WS2812B" H 6300 8581 60  0000 C CNN
 F 2 "WS2812B:WS2812B" V 6250 8200 60  0001 C CNN
 F 3 "" V 6250 8200 60  0000 C CNN
@@ -3582,10 +3554,10 @@ F 3 "" V 6250 8200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ws2812b:WS2812B LED6
+L ws2812b:WS2812B LED7
 U 1 1 624309C2
 P 6300 9150
-F 0 "LED6" H 6300 9637 60  0000 C CNN
+F 0 "LED7" H 6300 9637 60  0000 C CNN
 F 1 "WS2812B" H 6300 9531 60  0000 C CNN
 F 2 "WS2812B:WS2812B" V 6250 9150 60  0001 C CNN
 F 3 "" V 6250 9150 60  0000 C CNN
@@ -3771,59 +3743,55 @@ F 3 "" H 7000 10450 50  0001 C CNN
 $EndComp
 Text GLabel 5150 7100 2    50   Input ~ 0
 RGBLED
-Text GLabel 3450 7250 2    50   Input ~ 0
-COL1
-Text GLabel 3450 7350 2    50   Input ~ 0
-COL2
-Text GLabel 3450 7450 2    50   Input ~ 0
-COL3
-Text GLabel 3450 7550 2    50   Input ~ 0
-COL4
-Text GLabel 3450 7650 2    50   Input ~ 0
-COL5
-Text GLabel 3450 7750 2    50   Input ~ 0
-COL6
-Text GLabel 3450 7150 2    50   Input ~ 0
-COL0
-Text GLabel 3450 7850 2    50   Input ~ 0
-COL7
-Text GLabel 3450 8050 2    50   Input ~ 0
-COL8
-Text GLabel 3450 8450 2    50   Input ~ 0
-COL9
-Text GLabel 3450 8650 2    50   Input ~ 0
-COL10
-Text GLabel 3450 8750 2    50   Input ~ 0
-COL11
-Text GLabel 3450 8950 2    50   Input ~ 0
-COL12
-Text GLabel 3450 9050 2    50   Input ~ 0
-COL13
-Text GLabel 3450 9150 2    50   Input ~ 0
-COL14
-Text GLabel 3450 9250 2    50   Input ~ 0
-COL15
-Text GLabel 3450 9350 2    50   Input ~ 0
-COL16
 Text GLabel 3450 9450 2    50   Input ~ 0
-COL17
+COL1
+Text GLabel 3450 9250 2    50   Input ~ 0
+COL3
+Text GLabel 3450 9150 2    50   Input ~ 0
+COL4
+Text GLabel 3450 9050 2    50   Input ~ 0
+COL5
+Text GLabel 3450 8950 2    50   Input ~ 0
+COL6
 Text GLabel 3450 9550 2    50   Input ~ 0
-COL18
-Text GLabel 3450 9650 2    50   Input ~ 0
-COL19
-Text GLabel 3450 9850 2    50   Input ~ 0
-COL20
-Text GLabel 3450 9950 2    50   Input ~ 0
-ROW0
-Text GLabel 3450 10050 2    50   Input ~ 0
-ROW1
-Text GLabel 3450 10150 2    50   Input ~ 0
-ROW2
-Text GLabel 3450 10250 2    50   Input ~ 0
-ROW3
-Text GLabel 3450 10350 2    50   Input ~ 0
-ROW4
+COL0
+Text GLabel 2250 9050 0    50   Input ~ 0
+COL7
+Text GLabel 2250 8950 0    50   Input ~ 0
+COL8
+Text GLabel 3450 10550 2    50   Input ~ 0
+COL9
 Text GLabel 3450 10450 2    50   Input ~ 0
+COL10
+Text GLabel 3450 10350 2    50   Input ~ 0
+COL11
+Text GLabel 3450 10250 2    50   Input ~ 0
+COL12
+Text GLabel 3450 10150 2    50   Input ~ 0
+COL13
+Text GLabel 3450 7250 2    50   Input ~ 0
+COL14
+Text GLabel 3450 7150 2    50   Input ~ 0
+COL15
+Text GLabel 3450 8550 2    50   Input ~ 0
+COL16
+Text GLabel 3450 9850 2    50   Input ~ 0
+COL17
+Text GLabel 3450 7650 2    50   Input ~ 0
+COL18
+Text GLabel 3450 7850 2    50   Input ~ 0
+COL19
+Text GLabel 3450 7350 2    50   Input ~ 0
+COL20
+Text GLabel 3450 7450 2    50   Input ~ 0
+ROW0
+Text GLabel 3450 8750 2    50   Input ~ 0
+ROW1
+Text GLabel 3450 8650 2    50   Input ~ 0
+ROW2
+Text GLabel 3450 8450 2    50   Input ~ 0
+ROW3
+Text GLabel 3450 9950 2    50   Input ~ 0
 ROW5
 Text GLabel 3450 8150 2    50   Input ~ 0
 SCK
@@ -3831,7 +3799,7 @@ Text GLabel 3450 8250 2    50   Input ~ 0
 MOSI
 Text GLabel 3450 8350 2    50   Input ~ 0
 MISO
-Text GLabel 3450 8550 2    50   Input ~ 0
+Text GLabel 3450 9650 2    50   Input ~ 0
 RGBLED
 $Comp
 L Connector:AVR-ISP-6 J2
@@ -3957,7 +3925,7 @@ F 3 "" H 8000 7500 50  0001 C CNN
 $EndComp
 Text GLabel 5800 10300 3    50   Input ~ 0
 RGBLED_toUpperBoard
-Text GLabel 3450 10550 2    50   Input ~ 0
+Text GLabel 3450 7750 2    50   Input ~ 0
 ROW6
 Text GLabel 2250 10550 0    50   Input ~ 0
 ROW7
@@ -4125,4 +4093,45 @@ F 3 "" H 15300 7550 50  0001 C CNN
 	1    15300 7550
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR0125
+U 1 1 62515AF3
+P 11500 9750
+F 0 "#PWR0125" H 11500 9500 50  0001 C CNN
+F 1 "GND" H 11505 9577 50  0000 C CNN
+F 2 "" H 11500 9750 50  0001 C CNN
+F 3 "" H 11500 9750 50  0001 C CNN
+	1    11500 9750
+	1    0    0    -1  
+$EndComp
+Connection ~ 11500 9750
+$Comp
+L random-keyboard-parts:PRTR5V0U2X U2
+U 1 1 61D145CB
+P 11800 9100
+F 0 "U2" H 11800 9397 60  0000 C CNN
+F 1 "PRTR5V0U2X" H 11800 9291 60  0000 C CNN
+F 2 "random-keyboard-parts:SOT143B" H 11800 9100 60  0001 C CNN
+F 3 "" H 11800 9100 60  0001 C CNN
+	1    11800 9100
+	1    0    0    -1  
+$EndComp
+Connection ~ 11500 9400
+Wire Wire Line
+	11500 9050 11500 9400
+$Comp
+L MCU_Microchip_AVR:AT90USB1286-AU U1
+U 1 1 61D51A8D
+P 2850 8850
+F 0 "U1" H 2850 6761 50  0000 C CNN
+F 1 "AT90USB1286-AU" H 2850 6670 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_14x14mm_P0.8mm" H 2850 8850 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7593.pdf" H 2850 8850 50  0001 C CNN
+	1    2850 8850
+	1    0    0    -1  
+$EndComp
+Text GLabel 3450 9350 2    50   Input ~ 0
+COL2
+Text GLabel 3450 10050 2    50   Input ~ 0
+ROW4
 $EndSCHEMATC
