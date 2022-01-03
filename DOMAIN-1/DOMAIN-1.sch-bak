@@ -3769,27 +3769,25 @@ Text GLabel 3450 10250 2    50   Input ~ 0
 COL12
 Text GLabel 3450 10150 2    50   Input ~ 0
 COL13
-Text GLabel 3450 7250 2    50   Input ~ 0
-COL14
-Text GLabel 3450 7150 2    50   Input ~ 0
-COL15
-Text GLabel 3450 8550 2    50   Input ~ 0
-COL16
 Text GLabel 3450 9850 2    50   Input ~ 0
+COL14
+Text GLabel 2250 10350 0    50   Input ~ 0
+COL16
+Text GLabel 2250 9350 0    50   Input ~ 0
 COL17
-Text GLabel 3450 7650 2    50   Input ~ 0
-COL18
-Text GLabel 3450 7850 2    50   Input ~ 0
-COL19
-Text GLabel 3450 7350 2    50   Input ~ 0
-COL20
-Text GLabel 3450 7450 2    50   Input ~ 0
-ROW0
 Text GLabel 3450 8750 2    50   Input ~ 0
-ROW1
+COL18
 Text GLabel 3450 8650 2    50   Input ~ 0
+COL19
+Text GLabel 3450 8550 2    50   Input ~ 0
+COL20
+Text GLabel 2250 10150 0    50   Input ~ 0
+ROW0
+Text GLabel 2250 10450 0    50   Input ~ 0
+ROW1
+Text GLabel 2250 10550 0    50   Input ~ 0
 ROW2
-Text GLabel 3450 8450 2    50   Input ~ 0
+Text GLabel 2250 9450 0    50   Input ~ 0
 ROW3
 Text GLabel 3450 9950 2    50   Input ~ 0
 ROW5
@@ -3863,40 +3861,40 @@ F 3 "~" H 8550 6800 50  0001 C CNN
 	1    8550 6800
 	1    0    0    -1  
 $EndComp
-Text GLabel 8850 7300 2    50   Input ~ 0
-COL20
-Text GLabel 8850 7200 2    50   Input ~ 0
-COL19
-Text GLabel 8850 7100 2    50   Input ~ 0
-COL18
-Text GLabel 8850 7000 2    50   Input ~ 0
-COL17
-Text GLabel 8850 6900 2    50   Input ~ 0
-COL16
-Text GLabel 8850 6800 2    50   Input ~ 0
-COL15
-Text GLabel 8850 6700 2    50   Input ~ 0
-COL14
-Text GLabel 8850 6600 2    50   Input ~ 0
-COL13
-Text GLabel 8850 6500 2    50   Input ~ 0
-COL12
-Text GLabel 8850 6400 2    50   Input ~ 0
-COL11
-Text GLabel 8350 6400 0    50   Input ~ 0
-RGBLED_toUpperBoard
 Text GLabel 8350 6500 0    50   Input ~ 0
-COL10
+COL20
 Text GLabel 8350 6600 0    50   Input ~ 0
-COL9
+COL19
 Text GLabel 8350 6700 0    50   Input ~ 0
-ROW6
+COL18
 Text GLabel 8350 6800 0    50   Input ~ 0
+COL17
+Text GLabel 8850 7000 2    50   Input ~ 0
+COL16
+Text GLabel 8850 6900 2    50   Input ~ 0
+COL15
+Text GLabel 8850 6800 2    50   Input ~ 0
+COL14
+Text GLabel 8850 6700 2    50   Input ~ 0
+COL13
+Text GLabel 8850 6600 2    50   Input ~ 0
+COL12
+Text GLabel 8850 6500 2    50   Input ~ 0
+COL11
+Text GLabel 8850 6400 2    50   Input ~ 0
+RGBLED_toUpperBoard
+Text GLabel 8850 7100 2    50   Input ~ 0
+COL10
+Text GLabel 8350 6900 0    50   Input ~ 0
+COL9
+Text GLabel 8350 7000 0    50   Input ~ 0
+ROW6
+Text GLabel 8350 7100 0    50   Input ~ 0
 ROW7
 Wire Wire Line
-	8350 7200 8000 7200
+	8350 6400 8000 6400
 Wire Wire Line
-	8000 7200 8000 7000
+	8000 6400 8000 6200
 Wire Wire Line
 	8350 7300 8000 7300
 Wire Wire Line
@@ -3904,12 +3902,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0121
 U 1 1 61EEE90C
-P 8000 7000
-F 0 "#PWR0121" H 8000 6850 50  0001 C CNN
-F 1 "+5V" H 8015 7173 50  0000 C CNN
-F 2 "" H 8000 7000 50  0001 C CNN
-F 3 "" H 8000 7000 50  0001 C CNN
-	1    8000 7000
+P 8000 6200
+F 0 "#PWR0121" H 8000 6050 50  0001 C CNN
+F 1 "+5V" H 8015 6373 50  0000 C CNN
+F 2 "" H 8000 6200 50  0001 C CNN
+F 3 "" H 8000 6200 50  0001 C CNN
+	1    8000 6200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3925,10 +3923,6 @@ F 3 "" H 8000 7500 50  0001 C CNN
 $EndComp
 Text GLabel 5800 10300 3    50   Input ~ 0
 RGBLED_toUpperBoard
-Text GLabel 3450 7750 2    50   Input ~ 0
-ROW6
-Text GLabel 2250 10550 0    50   Input ~ 0
-ROW7
 $Comp
 L Device:C_Small C8
 U 1 1 621AC69C
@@ -4134,4 +4128,10 @@ Text GLabel 3450 9350 2    50   Input ~ 0
 COL2
 Text GLabel 3450 10050 2    50   Input ~ 0
 ROW4
+Text GLabel 3450 8050 2    50   Input ~ 0
+ROW7
+Text GLabel 3450 8450 2    50   Input ~ 0
+ROW6
+Text GLabel 2250 10250 0    50   Input ~ 0
+COL15
 $EndSCHEMATC
